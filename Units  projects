@@ -1,0 +1,25 @@
+package com.makotojava.intro;
+ 
+import static org.junit.Assert.*;
+ 
+import java.util.logging.Logger;
+ 
+import org.junit.Test;
+ 
+public class PersonTest {
+ 
+    @Test
+    public void testPerson() {
+        .
+        .
+        .
+    }
+ 
+    @Test
+    public void testToString() {
+      Person p = new Person("Joe Q Author", 42, 173, 82, "Brown", "MALE");
+       
+      Logger l = Logger.getLogger(PersonTest.class.getName());
+       
+      l.info("toString(): " + p.toString());
+    }
